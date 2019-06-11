@@ -191,30 +191,30 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	    char[] A = stringToChar("a");
-	    int[] asciiArr = new int[A.length];
-	    asciiArr = charArrToASCII(A);
-	    String binaryString = toBinary(asciiArr);
+	 char[] A = stringToChar("a");
+	 int[] asciiArr = new int[A.length];
+	 asciiArr = charArrToASCII(A);
+	 String binaryString = toBinary(asciiArr);
 
-	    //Objective 1
-	    toStringDNA(binaryString);
+	 //Objective 1
+	 toStringDNA(binaryString);
 
-	    //Objective 2
-	    toStringRNA(binaryString);
+	 //Objective 2
+	 toStringRNA(binaryString);
 
-	    //Objective 3
-      int position = findEncodedDNA("TGAT", "XY");
-      System.out.println(position);
+	 //Objective 3
+      	 int position = findEncodedDNA("TGAT", "XY");
+      	 System.out.println(position);
 
-      //Objective 4
-      dnaToString("TGAT");
+      	 //Objective 4
+     	 dnaToString("TGAT");
 
-	    //Objective 5
-	    String x = "TGAT";
-	    String y = "TGAT";
-	    char[] first = x.toCharArray();
-	    char[] second = y.toCharArray();
-	    int result = longestCommonSubsequence(first,second, first.length, second.length);
-	    System.out.println("The longest common subsequence between " + x + " and " + y + " is " + result);
+	 //Objective 5
+	 String x = "TGAT";
+	 String y = "TGAT";
+	 char[] first = x.toCharArray();
+	 char[] second = y.toCharArray();
+	 int result = longestCommonSubsequence(first,second, first.length, second.length);
+	 System.out.println("The longest common subsequence between " + x + " and " + y + " is " + result);
     }
 }
