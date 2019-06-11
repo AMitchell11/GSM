@@ -39,7 +39,7 @@ public class Main {
             // need to get the correct padding
             int fillLength = ASCIISIZE - binaryStack.size();
 
-            for(int j = 0; i < fillLength; i++) {
+            for(int j = 0; j < fillLength; j++) {
                 binaryStack.push(0);
             }
 
